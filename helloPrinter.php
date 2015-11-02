@@ -1,7 +1,15 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+</head>
+<body>
+<p>
+
 <?php
-/**
- * Created by PhpStorm.
- * User: 1303788
- * Date: 02/11/2015
- * Time: 15:00
- */
+    $query = $_GET["query"];
+    echo "Hello " . $query;
+?>
+
+</p>
+</body>
+</HTML>
